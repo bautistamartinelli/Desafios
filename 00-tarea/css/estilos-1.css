@@ -21,12 +21,12 @@ main {
     padding: 20px 0;
     text-align: center;
     color: white;
+    border-right-color: white;
     border-left-style: outset;
     border-left-width: 4px;
     border-left-color: white;
     border-right-style: outset;
     border-right-width: 4px;
-    border-right-color: white;
 }
 
 .titulo h1 {
@@ -40,6 +40,12 @@ main {
     color: white;
     padding: 20px;
     border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 .mas-vendidos h2 {
@@ -65,7 +71,6 @@ main {
     margin: 0;
     color: #e4007c;
     text-align: right;
-    border-bottom: dashed;
 }
 
 .juego figure {
@@ -77,11 +82,20 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    border-top: 2px dotted black;
+    margin-top: 10px;
 }
 
 .juego p {
     margin: 10px 0;
+    text-align: left;
+    font-size: 12px;
 }
+
+.mas-vendidos h3 {
+    color: #BC105C ;
+    border-bottom: dashed 2px;
+    }
 
 button {
     background-color: #28a745;
@@ -91,10 +105,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
+    font: bold 15px arial;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #E11364;
 }
 
 footer {
