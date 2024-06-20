@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #E11364;
 }
+article{
+    text-align: center;
+}
 
 main {
     width: 90%;
