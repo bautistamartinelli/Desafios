@@ -21,12 +21,8 @@ main {
     padding: 20px 0;
     text-align: center;
     color: white;
-    border-right-color: white;
-    border-left-style: outset;
-    border-left-width: 4px;
-    border-left-color: white;
-    border-right-style: outset;
-    border-right-width: 4px;
+    border-right: solid white 4px;
+    border-left: solid white 4px;;
 }
 
 .titulo h1 {
@@ -42,10 +38,10 @@ main {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 35px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .mas-vendidos h2 {
@@ -60,6 +56,7 @@ main {
     padding: 15px;
     margin: 20px 0;
     border-radius: 10px;
+    margin-bottom: 1px;
 }
 
 .juego-header {
@@ -117,14 +114,15 @@ button:hover {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #e4007c;
+    background-color: #E96093;
     color: white;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 footer p {
     margin: 5px 0;
+    font-size: 8px;
 }
 
 footer a {
