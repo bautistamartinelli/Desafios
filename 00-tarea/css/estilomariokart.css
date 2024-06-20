@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E11364;
+    color: white;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #E11364;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #BC105C;
+    padding: 5px;
+    text-align: center;
+    color: #BC105C;
+    border-right: solid white 4px;
+    border-left: solid white 4px;
+    background-image: url(/00-tarea/assets/img/mariokart.jfif);
+}
+
+header p {
+    font-weight: bold;
+    }
+
+
+
+
+.texto{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #BC105C;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-right: solid white 4px;
+    border-left: solid white 4px;
+}
+
+.caracteristicas {
+    text-align: left;
+}
+
+
+.caracteristicas ul {
+    padding-left: 1px;
+    margin-top: 1px;
+}
+
+
+.boton {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover {
+    background-color: #E11364;
+    }
