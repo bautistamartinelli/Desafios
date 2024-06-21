@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     background-color: #531478;
 }
 article{
@@ -11,14 +11,15 @@ article{
 main {
     width: 80%;
     max-width: 1000px;
-    margin: 20px auto;
-    padding: 10px;
+    margin: 30px auto;
+    padding: 30px;
     background-color:#531478;
 }
 
 .titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:#EDD00C;
-    padding: 20px 0;
+    padding: 20px 10px;
     text-align: center;
     color:black;
     border-right: solid black 7px;
@@ -30,32 +31,38 @@ main {
     padding-left: 5%;
     padding-right: 5%;
 }
+.titulo h1 {
+    margin: 5px;
+    font-size: 2.5em;
+}
 
-h1{font-family: fantasy;}
+h1{font-family: Georgia, 'Times New Roman', Times, serif;}
 
-.mas-vendidos {font font-family: fantasy;
+.mas-vendidos {font-family: Georgia, 'Times New Roman', Times, serif;
 
     background-color:#EDD00C;
     color ;black
-    border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 10 px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
     padding-right: 20px;
+
 }
 
 .mas-vendidos h2 {
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    margin: 30px;
+    padding: 25px;
 }
 
 .juego {
-    background-color: white;
-    color: #333;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 10px;
+    background-color:#333399 ;
+    color: white;
+    padding: 30px;
+    margin: 29px 45;
+    border-radius: 15px;
 
 }
 
@@ -66,29 +73,30 @@ h1{font-family: fantasy;}
 
 .juego-header h3 {
     margin: 0;
-    color: #e4007c;
+    color: black;
     text-align: right;
-    margin-bottom: 10px;
-    border-bottom: 1px dotted;
-    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 5cap;
+    border-bottom: double;
+    width: 95%;
 }
 
 .juego figure {
-    margin: 0;
-    text-align: center;
-    margin-top: 8px;
+    margin: 5%;
+    text-align: left;
+    margin-top: 10px;
 }
 
 .juego img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    max-width: 110px;
+    height: unset;
+    border-radius: 15px;
 }
 
 .juego p {
-    margin: 10px 0;
-    text-align: left;
-    font-size: 12px;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 15px;
 }
 
 .mas-vendidos h3 {
