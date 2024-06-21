@@ -38,8 +38,7 @@ header p {
     padding: 20px;
     text-align: center;
     color: white;
-    border-right: solid white 4px;
-    border-left: solid white 4px;
+    border-radius: 5px;
 }
 
 .caracteristicas {
@@ -74,4 +73,22 @@ header p {
 
 .boton:hover {
     background-color: #E11364;
+    }
+
+    button{
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+    button:hover{
+        background-color: #E11364;
     }

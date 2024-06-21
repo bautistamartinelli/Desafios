@@ -35,13 +35,9 @@ main {
     background-color: #BC105C;
     color: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-top: 30px;
     padding-bottom: 35px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 .mas-vendidos h2 {
@@ -56,6 +52,7 @@ main {
     padding: 15px;
     margin: 20px 0;
     border-radius: 10px;
+
 }
 
 .juego-header {
@@ -67,6 +64,9 @@ main {
     margin: 0;
     color: #e4007c;
     text-align: right;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted;
+    width: 100%;
 }
 
 .juego figure {
@@ -78,8 +78,6 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    border-top: 2px dotted black;
-    margin-top: 10px;
 }
 
 .juego p {
