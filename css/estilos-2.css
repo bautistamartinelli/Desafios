@@ -1,0 +1,137 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #531478;
+}
+article{
+    text-align: justify;
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color:#531478;
+}
+
+.titulo {
+    background-color:#EDD00C;
+    padding: 20px 0;
+    text-align: center;
+    color:black;
+    border-right: solid black 7px;
+    border-left: solid black 7px;;
+    border-bottom: solid black 7px;
+    border-top: solid black 7px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1{font-family: fantasy;}
+
+.mas-vendidos {font font-family: fantasy;
+
+    background-color:#EDD00C;
+    color ;black
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 10 px;
+    padding-right: 20px;
+}
+
+.mas-vendidos h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.juego {
+    background-color: white;
+    color: #333;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+
+}
+
+.juego-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.juego-header h3 {
+    margin: 0;
+    color: #e4007c;
+    text-align: right;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted;
+    width: 100%;
+}
+
+.juego figure {
+    margin: 0;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.juego img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.juego p {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 12px;
+}
+
+.mas-vendidos h3 {
+    color: #BC105C ;
+    border-bottom: dashed 2px;
+    }
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font: bold 15px arial;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #E11364;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #E96093;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 8px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
