@@ -7,7 +7,7 @@ body {
 }
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 20px auto;
     padding: 10px;
     background-color: #E11364;
@@ -21,25 +21,24 @@ body {
     color: #BC105C;
     border-right: solid white 4px;
     border-left: solid white 4px;
-    background-image: url(/00-tarea/assets/img/mariokart.jfif);
+    background-image: url(/00-tarea/assets/img/mkx.jfif)
 }
 
 header p {
     font-weight: bold;
-    }
-
-
+}
 
 
 .texto{
-    text-align: center;
-    margin-bottom: 20px;
-    background-color: #BC105C;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    border-radius: 5px;
+text-align: center;
+margin-bottom: 20px;
+background-color: #BC105C;
+padding: 20px;
+color: white;
+border-radius: 5px;
 }
+
+
 
 .caracteristicas {
     text-align: left;
@@ -52,7 +51,7 @@ header p {
 }
 
 
-.boton {
+.compra {
     background-color: #28a745;
     color: white;
     padding: 10px 15px;
@@ -66,12 +65,12 @@ header p {
     display: inline-block;
 }
 
-.boton a{
+.compra a{
     text-decoration: none;
     color: white;
 }
 
-.boton:hover {
+.compra:hover {
     background-color: #E11364;
     }
 
@@ -92,7 +91,6 @@ header p {
     button:hover{
         background-color: #E11364;
     }
-
 
     footer {
         text-align: center;
