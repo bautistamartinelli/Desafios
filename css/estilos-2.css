@@ -7,7 +7,7 @@ body {
 
 
 main {
-    width: 80%;
+    width: 90%;
     max-width: 1000px;
     margin: 30px auto;
     padding: 30px;
@@ -54,15 +54,15 @@ h1{
 
 
 .juego {
-    background-color:#333399 ;
+    background-color: #333399;
     color: #EDD00C;
-    padding: 30px;
+    padding: 15px;
     margin: 29px auto;
     margin-bottom: 10px;
     text-align: center;
     border: double 10px;
-    width: 90%;
     max-width: 600%;
+    width: 90%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -151,12 +151,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-    .juego {
-        width: 100%;
-        max-width: none;
-        margin: 10px;
-    }
 }
