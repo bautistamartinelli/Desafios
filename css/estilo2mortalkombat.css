@@ -6,93 +6,124 @@ body {
     color: white;
 }
 
-.container {
-    width: 90%;
+main {
+    width: 80%;
     max-width: 1000px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #E11364;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #531478;
 }
 
 .header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #EDD00C;
+    padding: 15px 10px;
     text-align: center;
-    margin-bottom: 20px;
-    background-color: #BC105C;
-    padding: 5px;
-    color: #BC105C;
-    border-right: solid white 4px;
-    border-left: solid white 4px;
-    background-image: url(../assets/img/mkx.jfif);
+    color: black;
+    border: solid black 5px;
+    margin-bottom: 15px;
 }
 
-.header p {
-    font-weight: bold;
+.header h1 {
+    font-size: 30px;
+    padding: 5px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #EDD00C;
+    color: black;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.texto h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-bottom: 20px;
-    background-color: #BC105C;
-    padding: 20px;
-    color: white;
-    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 50px;
 }
 
 .caracteristicas {
-    text-align: left;
+    background-color: #333399;
+    color: #EDD00C;
+    padding: 20px;
+    margin: 29px 45;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    border: double 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
 }
 
-.caracteristicas ul {
-    padding-left: 1px;
-    margin-top: 1px;
+.caracteristicas h2 {
+    margin-top: 1px;   
+    margin-bottom: -5px;
 }
 
-.compra {
-    background-color: #28a745;
+button{
+    background-color:#333399;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    text-decoration: none;
-    display: inline-block;
+    font-size: 1em;
+    font: bold 15px arial;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-top: -25px;
 }
 
-.compra a {
-    text-decoration: none;
-    color: white;
+button:hover { 
+    box-shadow: 0 0 10px #28a745;
+    transform: scale(1.1);
 }
 
-.compra:hover {
-    background-color: #E11364;
-}
-
-button {
-    background-color: #28a745;
+.boton {
+    background-color: #333399;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    text-decoration: none;
+    font-size: 1em;
+    font: bold 15px arial;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: fit-content;
     display: inline-block;
+
 }
 
-button:hover {
-    background-color: #E11364;
+.boton a{
+    text-decoration: none;
+    color: white;
 }
+
+.boton:hover {
+    box-shadow: 0 0 10px #28a745;
+    transform: scale(1.1);
+    }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #E96093;
-    color: white;
+    background-color: #EDD00C;
+    color:#333399;
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -110,3 +141,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
