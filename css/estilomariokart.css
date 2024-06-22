@@ -21,7 +21,7 @@ body {
     color: #BC105C;
     border-right: solid white 4px;
     border-left: solid white 4px;
-    background-image: url(/assets/img/mariokart.jfif);
+    background-image: url(mariokart.jfif); /* ../ probe   //probe */
 }
 
 header p {
