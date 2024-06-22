@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #531478;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #E11364;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #BC105C;
+    padding: 5px;
+    color: #BC105C;
+    border-right: solid white 4px;
+    border-left: solid white 4px;
+    background-image: url(../assets/img/mkx.jfif);
+}
+
+.header p {
+    font-weight: bold;
+}
+
+.texto {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #BC105C;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.caracteristicas {
+    text-align: left;
+}
+
+.caracteristicas ul {
+    padding-left: 1px;
+    margin-top: 1px;
+}
+
+.compra {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.compra a {
+    text-decoration: none;
+    color: white;
+}
+
+.compra:hover {
+    background-color: #E11364;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #E11364;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #E96093;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 8px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
