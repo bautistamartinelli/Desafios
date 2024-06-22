@@ -41,17 +41,18 @@ border-radius: 5px;
 
 
 .caracteristicas {
-    text-align: left;
+    text-align: center;
 }
 
 
 .caracteristicas ul {
     padding-left: 1px;
     margin-top: 1px;
+    text-align: left;
 }
 
 
-.compra {
+.boton {
     background-color: #28a745;
     color: white;
     padding: 10px 15px;
@@ -65,12 +66,12 @@ border-radius: 5px;
     display: inline-block;
 }
 
-.compra a{
+.boton a{
     text-decoration: none;
     color: white;
 }
 
-.compra:hover {
+.boton:hover {
     background-color: #E11364;
     }
 

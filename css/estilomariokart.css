@@ -42,13 +42,14 @@ header p {
 }
 
 .caracteristicas {
-    text-align: left;
+    text-align: center;
 }
 
 
 .caracteristicas ul {
     padding-left: 1px;
     margin-top: 1px;
+    text-align: left;
 }
 
 
