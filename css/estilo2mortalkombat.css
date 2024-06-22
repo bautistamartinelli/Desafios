@@ -60,15 +60,17 @@ h1 {
 .caracteristicas {
     background-color: #333399;
     color: #EDD00C;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 5;
+    margin-bottom: 10px;
     text-align: center;
     border: double 10px;
+    max-width: 90%;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    width: auto;
 }
 
 .caracteristicas h2 {
