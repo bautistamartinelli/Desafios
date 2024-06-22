@@ -57,11 +57,12 @@ h1{
     background-color:#333399 ;
     color: #EDD00C;
     padding: 30px;
-    margin: 30px 5px;
+    margin: 29px auto;
     margin-bottom: 10px;
     text-align: center;
     border: double 10px;
-    max-width: 100%;
+    width: 90%;
+    max-width: 600%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -150,4 +151,12 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .juego {
+        width: 100%; /* Ajusta el ancho al 100% para pantallas pequeñas */
+        max-width: none; /* Elimina el límite del ancho máximo */
+        margin: 10px; /* Ajusta el margen para pantallas pequeñas */
+    }
 }
